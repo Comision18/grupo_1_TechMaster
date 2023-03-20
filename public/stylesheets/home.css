@@ -177,7 +177,7 @@ color: #fff;
 }
 
 
-.card:nth-child(1) {
+/* .card:nth-child(1) {
     background: linear-gradient(-229deg, #fbd52d, #ef3a7c);
 }
 
@@ -203,7 +203,7 @@ color: #fff;
 
 .card:nth-child(7) {
     background: linear-gradient(-229deg, #642B73, #C6426E);
-}
+} */
 
 .card h3{
     position: absolute;
@@ -378,7 +378,10 @@ color: #fff;
         .button3{
             display: none;
         }
-        
+
+        .button1 a,.button2 a{
+            color: #fff300;
+        }
 
 }
 

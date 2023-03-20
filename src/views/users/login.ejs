@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<%- include('../partials/head',{title : 'Ingreso'}) %>
+
+<body>
+    
+    <main class="login__main">
+        
+            <div class="login__main__div">
+                <h2 class="login__main__div__titulo">Bienvenid@ a</h2>
+
+                <a class="login__main__div__logo" href="/"><img src="/images/logo.svg" alt="Logo" /></a>
+
+                <a class="login__main__div__logo--tablet" href="/"><img src="/images/logo.svg" alt="Logo" /><img src="/Images/LOGO-TECHMASTER.svg" alt="Logo" /></a>
+
+                <div class="login__main__div__logo--textinfo">
+                    <h3>TechMaster te brindará el mejor servicio de compra y venta de productos tecnologicos y afines.</h3>
+                </div>
+                
+
+                <div class="login__main__div--links">
+                    <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                  Continuar con Facebook
+                    </a>
+                </div>
+
+                <div class="login__main__div--links">
+                    <a href="">
+                    <i class="fa-brands fa-google"></i>
+                  Continuar con Google
+                    </a>
+                </div>
+            </div>
+
+            
+            <form class="login__main__form" method="POST">
+            <section class="login__main__form--logueo">
+
+                <div class="login__main__form--text">
+                    <h2>Ingresar</h2>
+                </div>
+
+                <div class="login__main__form--boxes">
+                    <input type="email" placeholder="Email" name="email" id="email" autocomplete="off">
+                </div>
+                <small class="register__errors"><%= (locals.errors && errors.email) && errors.email.msg %></small>
+    
+                <div class="login__main__form--boxes">
+                    <input type="password" placeholder="Contraseña" name="password" id="password" autocomplete="off">
+                </div>
+                <small class="register__errors"><%= (locals.errors && errors.password) && errors.password.msg %></small>
+                <div class="register__form__oferta1">
+                    <input type="checkbox" placeholder="" name="remember">
+                      <span class="register__span" >Recordame</span>
+                </div>
+    
+                <div class="login__main__form--buttons">
+                    <button class="login__button" type="submit">Ingresar</button>
+                    <button class="login__button2" type="submit"> <a href="/users/register">Crea tu cuenta</a> </button>
+                </div>
+
+                <a class="login__main__form--forget" href="">Olvidé mi contraseña</a>
+            </section>
+            
+        </form>
+        
+    </main>
+
+    <%- include('../partials/scripts')  %>
+</body>
+
+</html>
