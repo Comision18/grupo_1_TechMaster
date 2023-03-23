@@ -175,7 +175,8 @@
       "image": [
          "tecladoarena1.png",
          "tecladoarena2.png",
-         "tecladoarena3.png"],
+         "tecladoarena3.png"
+      ],
       "discount": 0,
       "color": "Negro",
       "category": "Teclado"
@@ -221,17 +222,5 @@
       "category": "Teclado",
       "discount": 5,
       "price": 800
-   },
-   {
-      "id": 18,
-      "name": "Don Cangrejo",
-      "price": 1000,
-      "description": "-que lo motivo?",
-      "image": [
-         "1677210516610_products_.png"
-      ],
-      "discount": 0,
-      "color": "Negro",
-      "category": "Monitor"
    }
 ]

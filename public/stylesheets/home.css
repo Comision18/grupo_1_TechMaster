@@ -70,6 +70,8 @@ font-size: 54px;
     .carousel-item button a{
         
 color: #fff;
+        
+text-decoration: none;
     }
     
     
@@ -219,7 +221,7 @@ color: #fff;
     padding: 6px;
 }
 
-.card h4{
+.card p{
     color: #FFF;
     font-size: 20px;
 }
@@ -228,16 +230,43 @@ color: #fff;
     border: solid 3px #cfff00;
     background-color: #0000003b;
     padding: 3px 20px 3px 20px;
-    font-family: 'lato',sans-serif;
+    /* font-family: 'lato',sans-serif; */
     font-weight: 600;
     border-radius: 5px;
+    color: #cfff00;
+    margin-bottom: 10px;
 }
 .button--carrusel a{
     color: #fff300;
     padding: 10p;
 }
+.card-carrousel p {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 
-
+#button--carrusel{
+    
+border: solid 3px #cfff00;
+    
+background-color: #0000003b;
+    
+padding: 3px 20px 3px 20px;
+    
+font-family: 'lato',sans-serif;
+    
+font-weight: 600;
+    
+border-radius: 5px;
+    
+color: #cfff00;
+    
+margin-bottom: 10px;
+    
+text-decoration: none;
+}
 @media (min-width: 768px)  { 
     .main--section-s{
         display: flex;
@@ -566,17 +595,18 @@ color: #fff;
             right: 6rem;
         }
 
-        .button1 a{
+/*         .button1 a{
             color: #fff300;
         }
+
 
         .button2 a{
             color: #fff300;
         }
 
-        .button3 a{
+        .button3 {
             color: #fff300;
-        }
+        } */
 
 }
 
